@@ -2,6 +2,7 @@
   "name": "take-out",
   "version": "0.0.0",
   "private": true,
+  "main": "./bin/www",
   "scripts": {
     "start-local": "node ./bin/www",
     "start": "PORT=80 node ./bin/www"
@@ -12,5 +13,8 @@
     "debug": "~2.6.9",
     "express": "~4.15.5",
     "morgan": "~1.9.0"
+  },
+  "engines": {
+    "node": "6.11.5"
   }
 }
